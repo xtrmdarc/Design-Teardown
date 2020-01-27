@@ -236,3 +236,73 @@ h1 {
   border-bottom: 4px solid black;
   padding-bottom: 7px;
 }
+#components {
+  padding: 30px;
+  background-color: #8d8d8d;
+}
+#components .feature-book {
+  border-radius: 9px;
+  height: 450px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  height: 900px;
+}
+.alingment {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.alingment h3 {
+  font-size: 47px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.alingment p {
+  text-align: center;
+  font-size: 1.2em;
+  width: 90%;
+  line-height: 30px;
+}
+.alingment button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: calc(1em + .25vw);
+  padding: .75em 1em;
+  background: #727272;
+  border-radius: 11px;
+}
+#comunity_links {
+  padding: 30px;
+  background-color: gray;
+}
+.person{
+  height: 320px;
+}
+#img-person{
+  width: 30%;
+  height: 300px;
+}
+.container-person{
+  display: flex;
+  flex-direction: row;
+  
+}
+#text-person{
+  width: 70%;
+  color: white;
+}
+#text-person span{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18;
+}
+#text-person p{
+  font-size: calc(.35842vw + .95296em);
+  line-height: 40px;
+}
