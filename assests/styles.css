@@ -5,6 +5,67 @@ body {
   font-family: 'PT Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
+#more_latest_articles {
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(163, 163, 163);
+}
+
+footer p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.alingment p {
+  text-align: center;
+  font-size: 1.2em;
+  width: 90%;
+  line-height: 30px;
+}
+
+.more_link span {
+  padding-bottom: 7px;
+  border-bottom: 4px solid black;
+}
+
+.newsletter-first span {
+  font-size: 14px;
+}
+
+.more_link2 span {
+  padding-bottom: 7px;
+  border-bottom: 4px solid black;
+}
+
+#text-person span {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18;
+}
+
+#text-person p {
+  font-size: calc(0.35842vw + 0.95296em);
+  line-height: 40px;
+}
+
+.alingment button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: calc(1em + 0.25vw);
+  padding: 0.75em 1em;
+  background: #727272;
+  border-radius: 11px;
+}
+
+#more_latest_articles span {
+  color: white;
+  border-bottom: 4px solid black;
+  padding-bottom: 7px;
+}
+
 #top-navigation {
   display: flex;
   flex-direction: row;
@@ -18,6 +79,11 @@ body {
   flex-grow: 1;
   text-align: center;
   font-size: 23px;
+}
+
+#curated span {
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 #top-navigation div span {
@@ -49,15 +115,52 @@ h1 {
   font-size: 2em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;  
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
 }
 
 .text_inside {
   background-color: #fff;
   padding: 10px;
   line-height: 50px;
+}
+
+.newsletter-second article {
+  flex-grow: 1;
+  padding: 10px 20px;
+  color: white;
+  height: 450px;
+  position: relative;
+  border: solid 1px rgba(187, 187, 187, 0.432);
+}
+
+.three_articles article {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px 20px;
+  color: white;
+  height: 450px;
+  position: relative;
+  border: solid 1px rgba(187, 187, 187, 0.432);
+}
+
+.newsletter-first article {
+  flex-grow: 1;
+  font-size: 21px;
+  padding: 10px 20px;
+  color: white;
+  height: 450px;
+  position: relative;
+  border: solid 1px rgba(187, 187, 187, 0.432);
+}
+
+#community_articles article {
+  width: calc(100% / 2 - (20px));
+  padding: 10px;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 #main-articles-wrapper article {
@@ -82,12 +185,12 @@ h1 {
   background-color: #8d8d8d;
 }
 
-#main-articles-wrapper article:nth-child(4){
+#main-articles-wrapper article:nth-child(4) {
   height: 732px;
   background-color: #737373;
 }
 
-#main-articles-wrapper article:nth-child(5){
+#main-articles-wrapper article:nth-child(5) {
   height: 732px;
   background-color: #808080;
 }
@@ -97,7 +200,6 @@ h1 {
   height: 400px;
   padding: 30px;
   background: rgb(80, 80, 80);
-
 }
 
 .promotion .text {
@@ -113,7 +215,6 @@ h1 {
 .promotion .cta-btn {
   padding: 10px;
   font-size: 23px;
-  color: white;
   background: rgb(41, 41, 41);
   color: white;
   border: none;
@@ -135,18 +236,38 @@ h1 {
   flex-wrap: nowrap;
 }
 
-.three_articles article {
-  flex-grow: 1;
-  width: 100%;
-  padding: 10px 20px;
-  color: white;
-  height: 450px;
-  position: relative;
-  border: solid 1px rgba(187, 187, 187, 0.432);
+.alingment h3 {
+  font-size: 47px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.feature_smashing_book h3 {
+  font-size: 45px;
+}
+
+.newsletter-first h3 {
+  font-size: 28px;
 }
 
 .three_articles article h3 {
   font-size: 28px;
+}
+
+.newsletter-second article h3 {
+  font-size: 42px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#community_articles article h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#new_smashing_section .smashing h3 {
+  font-size: 32px;
+  margin-top: 40px;
 }
 
 .three_articles article button {
@@ -208,11 +329,6 @@ h1 {
   align-items: center;
 }
 
-#new_smashing_section .smashing h3 {
-  font-size: 32px;
-  margin-top: 40px;
-}
-
 #new_smashing_section .smashing p {
   line-height: 34px;
 }
@@ -224,24 +340,12 @@ h1 {
   padding: 10px 20px;
   color: white;
   border: 0;
-  background: #444444;
+  background: #444;
 }
 
 #new_smashing_section .smashing span {
   font-size: 14px;
   margin-top: 17px;
-}
-
-#more_latest_articles {
-  padding: 50px 0;
-  text-align: center;
-  background-color: rgb(163, 163, 163);
-}
-
-#more_latest_articles span {
-  color: white;
-  border-bottom: 4px solid black;
-  padding-bottom: 7px;
 }
 
 #components {
@@ -251,7 +355,6 @@ h1 {
 
 #components .feature-book {
   border-radius: 9px;
-  height: 450px;
   flex-grow: 1;
   display: flex;
   flex-direction: row;
@@ -267,29 +370,6 @@ h1 {
   align-items: center;
   padding-top: 50px;
   text-align: center;
-}
-
-.alingment h3 {
-  font-size: 47px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.alingment p {
-  text-align: center;
-  font-size: 1.2em;
-  width: 90%;
-  line-height: 30px;
-}
-
-.alingment button {
-  cursor: pointer;
-  border: none;
-  color: white;
-  font-size: calc(1em + .25vw);
-  padding: .75em 1em;
-  background: #727272;
-  border-radius: 11px;
 }
 
 #comunity_links {
@@ -316,16 +396,6 @@ h1 {
   width: 70%;
   color: white;
 }
-#text-person span {
-  display: inline-block;
-  margin-bottom: 10px;
-  font-size: 18;
-}
-
-#text-person p {
-  font-size: calc(.35842vw + .95296em);
-  line-height: 40px;
-}
 
 #community_articles {
   display: flex;
@@ -333,19 +403,6 @@ h1 {
   flex-wrap: wrap;
   margin-top: 50px;
   color: white;
-}
-
-#community_articles article {
-  width: calc(100% / 2 - (20px));
-  padding: 10px;
-  display: flex;
-  margin-bottom: 50px;
-  margin-top: 30px;
-}
-
-#community_articles article h3 {
-  font-size: 30px;
-  margin-top: 20px;
 }
 
 #community_articles article .art-img {
@@ -365,16 +422,6 @@ h1 {
   width: 100%;
 }
 
-
-.more_link span {
-  padding-bottom: 7px;
-  border-bottom: 4px solid black;
-}
-
-.feature_smashing_book h3 {
-  font-size: 45px;
-}
-
 #curated-posts {
   background-color: rgb(148, 146, 146);
   padding: 20px;
@@ -384,16 +431,29 @@ h1 {
   padding: 20px;
 }
 
+footer ul li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.important_links li {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.newsletter-first li {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 #curated li {
   cursor: pointer;
   line-height: 30px;
   font-size: 21px;
   text-decoration: underline;
-}
-
-#curated span {
-  text-transform: uppercase;
-  font-size: 14px;
 }
 
 #newsletter {
@@ -408,59 +468,15 @@ h1 {
   width: 30%;
 }
 
-.newsletter-first article {
-  flex-grow: 1;
-  font-size: 21px;
-  padding: 10px 20px;
-  color: white;
-  height: 450px;
-  position: relative;
-  border: solid 1px rgba(187, 187, 187, 0.432);
-}
-
-.newsletter-first h3 {
-  font-size: 28px;
-}
-
-.newsletter-first li {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.newsletter-first span {
-  font-size: 14px;
-}
-
-.newsletter-second{
+.newsletter-second {
   width: 70%;
-  
 }
 
-.newsletter-second article {
-  flex-grow: 1;
-  padding: 10px 20px;
-  color: white;
-  height: 450px;
-  position: relative;
-  border: solid 1px rgba(187, 187, 187, 0.432);
-}
-
-.newsletter-second article h3 {
-  font-size: 42px;
-  text-align: center;
-  text-decoration: underline;
-}
-
-.more_link2{
+.more_link2 {
   background-color: rgb(163, 163, 163);
   padding: 50px 0;
   text-align: center;
   width: 100%;
-}
-
-.more_link2 span{
-  padding-bottom: 7px;
-  border-bottom: 4px solid black;
 }
 
 footer {
@@ -474,34 +490,14 @@ footer {
   justify-content: center;
 }
 
-footer p {
-  padding-top: 20px;
-  text-align: center;
-  font-size: 15px;
-  line-height: 22px;
-}
-
 footer ul {
   text-align: center;
   margin-top: 34px;
   padding: 0;
 }
 
-footer ul li {
-  display: inline-block;
-  margin: 0 15px;
-  font-size: 22px;
-  text-align: center;
-  line-height: 34px;
-}
-
 .important_links {
   width: 40%;
-}
-
-.important_links li {
-  text-decoration: underline;
-  font-size: 14px;
 }
 
 #back_to_top_btn {
