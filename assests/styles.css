@@ -110,7 +110,9 @@ h1 {
   padding: 10px;
   font-size: 23px;
   color: white;
-  background: gray;
+  background: rgb(41, 41, 41);
+  color: white;
+  border: none;
   border-radius: 3px;
   margin-top: 10px;
 }
@@ -236,10 +238,12 @@ h1 {
   border-bottom: 4px solid black;
   padding-bottom: 7px;
 }
+
 #components {
   padding: 30px;
   background-color: #8d8d8d;
 }
+
 #components .feature-book {
   border-radius: 9px;
   height: 450px;
@@ -250,24 +254,29 @@ h1 {
   color: white;
   height: 900px;
 }
+
 .alingment {
-  width: 50%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
+  text-align: center;
 }
+
 .alingment h3 {
   font-size: 47px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .alingment p {
   text-align: center;
   font-size: 1.2em;
   width: 90%;
   line-height: 30px;
 }
+
 .alingment button {
   cursor: pointer;
   border: none;
@@ -277,32 +286,86 @@ h1 {
   background: #727272;
   border-radius: 11px;
 }
+
 #comunity_links {
   padding: 30px;
   background-color: gray;
 }
-.person{
+
+.person {
   height: 320px;
 }
-#img-person{
+
+#img-person {
   width: 30%;
   height: 300px;
 }
-.container-person{
+
+.container-person {
   display: flex;
   flex-direction: row;
-  
+  padding-top: 20px;
 }
-#text-person{
+
+#text-person {
   width: 70%;
   color: white;
 }
-#text-person span{
+#text-person span {
   display: inline-block;
   margin-bottom: 10px;
   font-size: 18;
 }
-#text-person p{
+
+#text-person p {
   font-size: calc(.35842vw + .95296em);
   line-height: 40px;
+}
+
+#community_articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  color: white;
+}
+
+#community_articles article {
+  width: calc(100% / 2 - (20px));
+  padding: 10px;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+#community_articles article h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#community_articles article .art-img {
+  width: 15%;
+  height: 80px;
+  margin-right: 4%;
+  background: rgb(66, 66, 66);
+}
+
+#community_articles article .article-info {
+  width: 80%;
+}
+
+.more_link {
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+.more_link span {
+  padding-bottom: 7px;
+  border-bottom: 4px solid black;
+}
+
+.feature_smashing_book h3 {
+  font-size: 45px;
 }
