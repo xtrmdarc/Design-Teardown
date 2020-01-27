@@ -138,6 +138,7 @@ h1 {
   color: white;
   height: 450px;
   position: relative;
+  border: solid 1px rgba(187, 187, 187, 0.432);
 }
 
 .three_articles article h3 {
@@ -368,4 +369,74 @@ h1 {
 
 .feature_smashing_book h3 {
   font-size: 45px;
+}
+
+#curated-posts {
+  background-color: rgb(148, 146, 146);
+  padding: 20px;
+}
+
+#curated {
+  padding: 20px;
+}
+
+#curated li {
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+#curated span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#newsletter {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 20px 80px 20px 20px;
+}
+
+.newsletter-first {
+  width: 30%;
+}
+
+.newsletter-first article{
+  flex-grow: 1;
+  
+  padding: 10px 20px;
+  color: white;
+  height: 450px;
+  position: relative;
+  border: solid 1px rgba(187, 187, 187, 0.432);
+}
+
+.newsletter-second{
+  width: 70%;
+  
+}
+
+.newsletter-second article {
+  flex-grow: 1;
+
+  padding: 10px 20px;
+  color: white;
+  height: 450px;
+  position: relative;
+  border: solid 1px rgba(187, 187, 187, 0.432);
+}
+
+.more_link2{
+  background-color: rgb(163, 163, 163);
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.more_link2 span{
+  padding-bottom: 7px;
+  border-bottom: 4px solid black;
 }
