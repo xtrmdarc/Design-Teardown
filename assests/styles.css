@@ -154,3 +154,22 @@ h1 {
   color: white;
   border: none;
 }
+.color-articles{
+  background-color: #808080;
+}
+#smashing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#smashing .feature-btn{
+  position: static;
+  width: 150px;
+}
+#second_latest_posts{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-top: 60;
+  background: #737373;
+}
