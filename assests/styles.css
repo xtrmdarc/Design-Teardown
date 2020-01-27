@@ -154,22 +154,85 @@ h1 {
   color: white;
   border: none;
 }
-.color-articles{
+
+.color-articles {
   background-color: #808080;
 }
-#smashing{
+
+#smashing {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#smashing .feature-btn{
+
+#smashing .feature-btn {
   position: static;
   width: 150px;
 }
-#second_latest_posts{
+
+#second_latest_posts {
   display: flex;
   flex-direction: column;
   padding: 40px;
   padding-top: 60;
   background: #737373;
+}
+
+#new_smashing_section {
+  padding: 30px;
+  background-color: #8d8d8d;
+}
+
+#new_smashing_section .smashing {
+  border-radius: 9px;
+  height: 450px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+}
+
+#new_smashing_section .smashing .smashing_wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new_smashing_section .smashing h3 {
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+#new_smashing_section .smashing p {
+  line-height: 34px;
+}
+
+#new_smashing_section .smashing button {
+  font-size: 20px;
+  border-radius: 9px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: white;
+  border: 0;
+  background: #444444;
+}
+
+#new_smashing_section .smashing span {
+  font-size: 14px;
+  margin-top: 17px;
+}
+
+#more_latest_articles {
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(163, 163, 163);
+}
+
+#more_latest_articles span {
+  color: white;
+  border-bottom: 4px solid black;
+  padding-bottom: 7px;
 }
