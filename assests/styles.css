@@ -32,6 +32,7 @@ body {
   flex-wrap: wrap;
   position: relative;
 }
+
 .top_text {
   top: 0;
   margin-top: 50px;
@@ -39,6 +40,7 @@ body {
   position: absolute;
   text-align: center;
 }
+
 h1 {
   display: block;
   font-size: 2em;
@@ -48,10 +50,12 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;  
 }
+
 .text_inside {
   background-color: #fff;
   padding: 10px;
 }
+
 #main-articles-wrapper article {
   display: flex;
   justify-content: center;
@@ -83,7 +87,70 @@ h1 {
   height: 732px;
   background-color: #808080;
 }
+
 .promotion {
+  max-width: 100%;
+  height: 400px;
+  padding: 30px;
+  background: rgb(80, 80, 80);
+
+}
+
+.promotion .text {
+  display: inline-block;
+  width: 50%;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.promotion .cta-btn {
+  padding: 10px;
+  font-size: 23px;
+  color: white;
+  background: gray;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+#latest_posts {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-top: 60;
+  background: #737373;
+}
+
+.three_articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.three_articles article {
+  flex-grow: 1;
   width: 100%;
-  height: 490px;
+  padding: 10px 20px;
+  color: white;
+  height: 450px;
+  position: relative;
+}
+
+.three_articles article h3 {
+  font-size: 28px;
+}
+
+.three_articles article button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #363636;
+  color: white;
+  border: none;
 }
