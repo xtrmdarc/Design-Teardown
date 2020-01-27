@@ -42,7 +42,7 @@ footer p {
 #text-person span {
   display: inline-block;
   margin-bottom: 10px;
-  font-size: 18;
+  font-size: 18px;
 }
 
 #text-person p {
@@ -104,7 +104,7 @@ footer p {
 .top_text {
   top: 0;
   margin-top: 50px;
-  left: 36%;
+  left: 39%;
   position: absolute;
   text-align: center;
   color: black;
@@ -113,10 +113,6 @@ footer p {
 h1 {
   display: block;
   font-size: 2em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
   font-weight: bold;
 }
 
@@ -226,7 +222,7 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  padding-top: 60;
+  padding-top: 60px;
   background: #737373;
 }
 
@@ -302,7 +298,7 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  padding-top: 60;
+  padding-top: 60px;
   background: #737373;
 }
 
